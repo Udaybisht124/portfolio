@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+
+}
+body {
+    background-color: black;
+}
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px 10px white;
+    }
+    75%{
+        box-shadow: 0 0 20px 10px rgba(0, 255, 255, 1);
+    }
+    100% {
+        box-shadow: 0 0 10px 5px white;
+    }
+}
+
+.first-image {
+    animation: shadowPulse 2s infinite ease-in-out;
+}
+
+
+.contact-container {
+    background: url('https://images.pexels.com/photos/15387699/pexels-photo-15387699/free-photo-of-blank-card-with-envelope.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+width:auto;
+margin-left:40px;
+margin-top: 20px;
+}
+.p-6.mr-2.bg-transparent.sm\:rounded-lg {
+    margin-top: -33px;
+}
+.relative.flex.items-top.justify-center.min-h-\[700px\].bg-white.contact-container.sm\:items-center.sm\:pt-0 {
+    margin-bottom: 4px;
+}
+
+.hi-icon {
+    font-size: 4rem;
+    animation: wave 1.5s infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+.card {
+    margin: auto;
+    margin-top:30px;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px #06b6d4; /* Shadow on hover */
+}
+
+.max-w-6xl.mx-auto.sm\:px-6.lg\:px-8 {
+    margin-top: -92px;
+}
+
