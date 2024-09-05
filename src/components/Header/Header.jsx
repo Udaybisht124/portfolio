@@ -13,7 +13,7 @@ export default function Header() {
             <nav className="bg-black border-gray-200 px-4 lg:px-6 py-2.5">
                 <div className="flex items-center justify-between max-w-screen-xl mx-auto">
                     {/* Logo or title */}
-                    <h1 className="text-cyan-400 font-extrabold uppercase text-xl sm:text-2xl md:text-3xl">
+                    <h1 className="text-cyan-600 font-extrabold uppercase text-xl sm:text-2xl md:text-3xl">
                         Portfolio
                     </h1>
                     

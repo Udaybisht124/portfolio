@@ -5,7 +5,7 @@
 
 }
 body {
-    background-color: black;
+    background-color: black
 }
 @keyframes shadowPulse {
     0% {
@@ -74,3 +74,10 @@ margin-top: 20px;
     margin-top: -92px;
 }
 
+.relative.flex.justify-center.mb-8.md\:mb-0 {
+    margin-left: 100px;
+}
+.text-center.md\:text-right.space-y-8.text-center.flex.flex-col.justify-center {
+    margin-top: 80px;
+    margin-right: 20px;
+}
