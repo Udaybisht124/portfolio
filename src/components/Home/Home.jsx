@@ -8,7 +8,7 @@ export default function Home() {
             <div className="relative flex justify-center mb-8 md:mb-0">
                 <img
                     className="w-80 sm:w-96 h-auto shadow-lg shadow-cyan-400/100"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqdiliSJkVlFmf7BVx-F0CtioI3OMomTEF7A&s"
+                    src="./src/assets/images/udayimg.jpg"
                     alt="image1"
                 />
             </div>
