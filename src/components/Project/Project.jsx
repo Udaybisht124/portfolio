@@ -8,7 +8,7 @@ function Project() {
                 {/* Card 1 */}
                 <div className="w-full sm:w-80 lg:w-96 bg-black rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-2xl hover:shadow-cyan-400">
                     <div className="card-top w-full h-56 bg-black">
-                        <img className="w-full h-full object-cover" src="./src/images/p1.png" alt="PyQuestionpaper" />
+                        <img className="w-full h-full object-cover" src="./src/assets/images/p1.png" alt="PyQuestionpaper" />
                     </div>
                     <div className="card-bottom w-full p-4 text-lg text-cyan-300 bg-slate-700 flex flex-col justify-between h-full">
                         <h1 className='text-xl font-bold'>
@@ -25,7 +25,7 @@ function Project() {
                 {/* Card 2 */}
                 <div className="w-full sm:w-80 lg:w-96 bg-black rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-2xl hover:shadow-cyan-400">
                     <div className="card-top w-full h-56 bg-black">
-                        <img className="w-full h-full object-cover" src="./src/images/p2.png" alt="DBMS" />
+                        <img className="w-full h-full object-cover" src="./src/assets/images/p2.png" alt="DBMS" />
                     </div>
                     <div className="card-bottom w-full p-4 text-lg text-cyan-300 bg-slate-700 flex flex-col justify-between h-full">
                         <h1 className='text-xl font-bold'>
@@ -41,7 +41,7 @@ function Project() {
                 {/* Card 3 */}
                 <div className="w-full sm:w-80 lg:w-96 bg-black rounded-lg shadow-lg overflow-hidden flex flex-col hover:shadow-2xl hover:shadow-cyan-400">
                     <div className="card-top w-full h-56 bg-black">
-                        <img className="w-full h-full object-cover" src="./src/images/itask1.png" alt="ITask" />
+                        <img className="w-full h-full object-cover" src="./src/assets/images/itask1.png" alt="ITask" />
                     </div>
                     <div className="card-bottom w-full p-4 text-lg text-cyan-300 bg-slate-700 flex flex-col justify-between h-full">
                         <h1 className='text-xl font-bold'>
